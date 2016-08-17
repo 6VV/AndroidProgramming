@@ -8,5 +8,6 @@
     <string name="question_mideast">The Suez Canal connects the Red Sea and the Indian Ocean.</string>
     <string name="correct_toast">The answer is correct</string>
     <string name="wrong_toast">The answer is wrong</string>
+    <string name="pre_button">Pre</string>
 
 </resources>
