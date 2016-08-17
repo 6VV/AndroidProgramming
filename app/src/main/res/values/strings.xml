@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AndroidProgramming</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="quizactivity_button">Quiz Activity</string>
+    <string name="next_button">Next</string>
+    <string name="question_oceans">The Pacific Ocean is larger than the Atlantic Ocean.</string>
+    <string name="question_mideast">The Suez Canal connects the Red Sea and the Indian Ocean.</string>
+    <string name="correct_toast">The answer is correct</string>
+    <string name="wrong_toast">The answer is wrong</string>
+
+</resources>
