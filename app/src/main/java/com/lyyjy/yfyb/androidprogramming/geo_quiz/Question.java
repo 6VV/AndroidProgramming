@@ -1,4 +1,4 @@
-package com.lyyjy.yfyb.androidprogramming.GeoQuiz;
+package com.lyyjy.yfyb.androidprogramming.geo_quiz;
 
 /**
  * Created by Administrator on 2016/8/17.

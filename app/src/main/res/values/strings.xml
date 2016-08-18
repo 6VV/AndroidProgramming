@@ -9,5 +9,8 @@
     <string name="correct_toast">The answer is correct</string>
     <string name="wrong_toast">The answer is wrong</string>
     <string name="pre_button">Pre</string>
-
+    <string name="cheat_button">CHEAT!</string>
+    <string name="warin_text">Are you sure you want to do this?</string>
+    <string name="show_answer_button">Show Answer</string>
+    <string name="cheat_is_wrong">Cheat is wrong</string>
 </resources>
