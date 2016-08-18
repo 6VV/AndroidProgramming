@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+import com.lyyjy.yfyb.androidprogramming.criminal_intent.CrimeActivity;
+import com.lyyjy.yfyb.androidprogramming.criminal_intent.CrimeListActivity;
 import com.lyyjy.yfyb.androidprogramming.geo_quiz.QuizActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -16,7 +18,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        findViewById(R.id.quizActivity_button).setOnClickListener(this);
+        findViewById(R.id.quizActivityButton).setOnClickListener(this);
+        findViewById(R.id.criminalIntentButton).setOnClickListener(this);
 
         Log.d(TAG,"onCreate");
 
@@ -55,8 +58,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.quizActivity_button:{
+            case R.id.quizActivityButton:{
                 startActivity(new Intent(MainActivity.this, QuizActivity.class));
+            }break;
+            case R.id.criminalIntentButton:{
+                startActivity(new Intent(MainActivity.this, CrimeListActivity.class));
             }break;
         }
     }

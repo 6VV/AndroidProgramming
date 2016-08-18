@@ -18,6 +18,10 @@
         <activity android:name=".geo_quiz.QuizActivity"/>
         <activity android:name=".geo_quiz.CheatActivity">
         </activity>
+        <activity android:name=".criminal_intent.CrimeActivity">
+        </activity>
+        <activity android:name=".criminal_intent.CrimeListActivity">
+        </activity>
     </application>
 
 </manifest>
